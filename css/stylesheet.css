@@ -1,0 +1,14 @@
+/* 
+	Sample CSS Framework
+	
+**/
+
+html {
+	margin:0;
+}
+
+body {
+	color: #333;
+	font-family: sans-serif;
+	font-size: 12px;
+}

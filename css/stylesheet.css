@@ -25,6 +25,16 @@ img {
 page-break-inside: avoid;
 }
 
+img {
+	vertical-align: middle;
+	border-style:none;
+}
+
+label {
+	display: inline-block;
+	font-weight: 700;
+}
+
 span {
 	display: inline;
 }
@@ -229,6 +239,8 @@ a:not([href]):not([tabindex]):focus {
 	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 
+
+
 .form-groups {
 	margin:0;
 	display: inline-block;
@@ -236,12 +248,13 @@ a:not([href]):not([tabindex]):focus {
 	padding: 0 2rem;
 }
 
+
 .form-groups > input {
 	display: block;
+	width: 100%;
 	margin-bottom: 2rem;
 	padding: 5px;
 }
-
 
 .btn {
 	display: inline;
@@ -258,11 +271,9 @@ a:not([href]):not([tabindex]):focus {
 	box-sizing: border-box;
 }
 
-.	
+	/* End of Form Control Classes **/
+
+	/* Grid Template Classes **/
 
 
-
-
-
-	/* End of Form Control Classes*/
 

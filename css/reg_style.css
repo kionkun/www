@@ -1,0 +1,15 @@
+body {
+	background-image: url('https://puu.sh/AZhT2/242ffb7aa0.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.sidepane {
+	width: 40%;
+	min-height: 100%;
+	float: right;
+	background-color: #fff;
+	border: 1px solid transparent;
+	overflow: auto;
+}

@@ -1,0 +1,132 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Registration Form</title>
+		<style>
+			body {
+				margin: 0;
+				font-family: sans-serif;
+				color: #212529;
+
+			}
+
+			.form {
+				margin-left:auto;
+				margin-right: auto;
+				padding: 2rem;
+				width: 700px;
+				border: 1px solid #000001;
+				border-radius: 3px;
+				background-color: transparent;
+			}
+
+			.container {
+				margin: auto;
+				width: 50%;
+				padding: 10px;
+				border: 1px solid red;
+			}
+
+			.row-group {
+				display: block;
+				width: 100%;
+				padding: 1rem 1.5rem;
+				border: 1px solid blue;
+				box-sizing: border-box;
+			}
+
+			.groups {
+				border: 1px dotted red;
+				display: inline-block;
+				box-sizing: border-box;
+			}
+
+			.groups2 {
+				border: 1px dotted orange;
+				display: inline-block;
+				box-sizing: border-box;
+			}
+
+			.groups2 > input {
+				display: block;
+			}
+
+			.groups2 > label {
+				display: block;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<form>
+			<div class="container">
+				<div class="row-group">
+				<div class="groups">
+					<label>Last Name:</label>
+					<br>
+					<input type="text">
+				</div>
+				<div class="groups">
+					<label>First Name:</label>
+					<br>
+					<input type="text">
+				</div>
+				<div class="groups">
+					<label>Middle Initial: </label>
+					<br>
+					<input type="text" size="1">
+				</div>
+				</div>
+
+				<div class="row-group">
+					<div class="groups">
+						<label>Gender</label>
+						<br>
+						<input type="radio" name="gender" value="male">Male
+						<input type="radio" name="gender">Female
+						<input type="radio" name="gender">Others(Specify)
+					</div>
+				</div>
+				<div class="row-group">
+					<div class="groups">
+						<label>Country</label>
+						<br>
+						<select>
+							<option>Philippines</option>
+							<option>United States of America</option>
+							<option>China</option>
+						</select>
+					</div>
+				</div>
+				<div class="row-group">
+					<div class="groups">
+						<label>Hobbies</label>
+						<span style="display: block;">
+							<input type="checkbox">Drawing
+							<input type="checkbox">Gaming
+							<input type="checkbox">None
+						</span>
+					</div>
+				</div>
+				<div class="row-group">
+					<div class="groups2">
+						<label>Username:</label>
+						<input type="text">
+						<label>Password: </label>
+						<input type="Password">
+						<label>Confirm Password: </label>
+						<input type="Password"
+					</div>
+				</div>
+			</div>
+
+			<div class="row-group">
+					<div class="groups">
+						<input type="submit" value="Register">
+						<button>Cancel</button>
+					</div>
+				</div>
+		</form>
+	</body>
+</html>
